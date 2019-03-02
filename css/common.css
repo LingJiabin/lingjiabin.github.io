@@ -143,7 +143,7 @@
 
 /*通用样式*/
 .is-post-tag {
-    background: #ffb3d9;
+    background: rgba(0,0,0,0);
     border-radius: 3px;
     border: 1px solid orangered;
     color: orangered;
@@ -164,7 +164,7 @@
     height: 100%;
     width: 100%;
 
-    background-color: rgba(0,0,0, .6);
+    background-color:  #ffb3d9;
 }
 
 /*!*index page*!*/
