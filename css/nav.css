@@ -99,7 +99,7 @@
 
 .nav-item .logo {
     position: relative;
-    background-image: -webkit-linear-gradient(left,  #80e5ff, #ffffff);
+    background-image: -webkit-linear-gradient(left,   #33d6ff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
