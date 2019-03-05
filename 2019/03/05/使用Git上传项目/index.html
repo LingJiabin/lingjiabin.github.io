@@ -30,71 +30,66 @@
 <body class="loading">
     <span id="config-title" style="display:none">+ice</span>
     <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="  menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="https://github.com/LingJiabin" title="Github" target="_blank" rel="noopener">Github</a>
-        </li>
-        
-    </ul>
-    <p id="copyright">
-        &copy; 2019 Half9.
-        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a>
-        by Fechin
-    </p>
-</div>
-
-<div id="container">
-    
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/two.png" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewbox="0 0 2880 1620" height="100%" preserveaspectratio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;" data-url="http://yoursite.com"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">使用Git上传项目</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
         <div>
-            <a class="image-logo" href="/"></a>
-            <div class="icon-menu switchmenu"></div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
         </div>
     </div>
-    
-    <div id="post0">
-        <p>三月 05, 2019</p>
-        <h2><a href="/2019/03/05/使用Git上传项目/" title="使用Git上传项目" class="posttitle">使用Git上传项目</a></h2>
-        <p class="summary">以图为说明
-用git上传到github 首先需要安装git右键桌面 git bash here或者进入要上传文件目...</p>
-    </div>
-    
+    <div class="scrollbar"></div>
 </div>
 
-    <div id="primary">
+    <div class="section">
+        <div class="article">
+    <div class="main">
+        <h1 class="title">使用Git上传项目</h1>
+        <div class="stuff">
+            <span>三月 05, 2019</span>
+            
+  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/Newplayer/">Newplayer</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>以图为说明<br><a href="http://http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png" target="_blank" rel="noopener"><img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png" alt></a></p>
+<p>用git上传到github 首先需要安装git<br>右键桌面 git bash here<br>或者进入要上传文件目录下右键 git bash here<br>先进入文件目录<br><code>cd /文件目录下</code><br>创建一个临时工作区(workspace)<br><code>git init 名称</code><br>将当前文件目录下所有文件加入index<br><code>git add .</code><br>或者将某个文件加入index<br><code>git add filename</code><br>将Index 里的文件提交到Repository<br><code>git commit</code><br>会弹出一个文档，输入第一行为提交标题，第二行为说明<br><code>git push Remote master</code><br>这里Remote 填写项目URL, master代表主要分支</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src>
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        <li title="0" data-url="http://link.hhtjim.com/163/5146554.mp3"></li>
+                    
+                        <li title="1" data-url="http://link.hhtjim.com/qq/001faIUs4M2zna.mp3"></li>
+                    
+                </ul>
+            
+        </div>
         
-<div class="post">
-    <a href="/2019/03/02/hello-world/" title="Hello World">
-        <img src="/img/one.png" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>三月 02, 2019</p>
-        <h3><a href="/2019/03/02/hello-world/" title="Hello World" class="posttitle">Hello World</a></h3>
-        <p>Welcome to Hexo! This is your very first post. Check documentation for more i...</p>
-    </div>
-</div>
+    <div id="gitalk-container" class="comment link" data-ae="false" data-ci data-cs data-r data-o data-a data-d="false">查看评论</div>
 
 
     </div>
     
 </div>
-<div id="preview"></div>
 
+
+    </div>
+</div>
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"display":{"position":"right","width":90,"height":180,"bottom":-60},"mobile":{"show":false},"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/nipsilon.model.json"},"log":false});</script></body>
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
